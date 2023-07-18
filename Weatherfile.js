@@ -6,11 +6,8 @@ function Weatherfile() {
   const [dat, setDat] = useState({});
   const [icn, setIcn] = useState("");
   const [isLogIn, setIsLogIn] = useState(false);
-<<<<<<< HEAD
   const [isLogInn, setIsLogInn] = useState(false);
-=======
   const [isLogout, setIsLogout] = useState(false);
->>>>>>> f6fcbfa9c5d57c27c70786f7c41692ce05a52dab
   let data;
   const getApiData = async () => {
     // try{
